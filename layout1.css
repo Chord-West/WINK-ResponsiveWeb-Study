@@ -1,0 +1,58 @@
+header{
+    display: flex;
+    position: fix;
+    background-color: #333333;
+    height: 130px;
+}
+
+header div{
+    display: flex;
+    align-items: center;
+    font-size: x-large;
+    font-weight: bolder;
+    color: white;
+    margin-left: 30px;
+}
+
+main{
+    display: flex;
+    max-width: 1200px;
+    margin:auto;
+    background-color: black;
+    height: 900px;
+}
+
+main aside{
+    display: flex;
+    background-color: #4E7AA2;
+    width: 20%;
+    flex-grow: 1;
+}
+main aside ul{
+    list-style: none;
+}
+main aside ul li{
+    color: white;
+}
+main section{
+    width: 80%;
+    background-color: beige;
+    flex-grow: 5;
+}
+main section .back img{
+    max-width: 100%;
+    max-height: 100%;
+}
+main section .list{
+    display: flex;
+    justify-content: space-around;
+}
+main section .list div{
+    border : 1px solid #999999;
+    padding : 50px;
+    
+}
+footer{
+    height: 200px;
+    background-color: lightgray;
+}
