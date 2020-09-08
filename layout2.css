@@ -1,0 +1,57 @@
+body{
+    background:#1b1d21;
+}
+header{
+    position: fix;
+    background-color: #333333;
+    height: 130px;
+}
+
+header div{
+    align-items: center;
+    font-size: x-large;
+    font-weight: bolder;
+    color: white;
+    margin-left: 30px;
+}
+
+main{
+    height: 870px;
+    background-color: black;
+}
+
+main aside{
+    float: left;
+    height: 100%;
+    width: 20%;
+    background-color: #4E7AA2;
+}
+main aside ul{
+    list-style: none;
+}
+main aside ul li{
+    color: white;
+}
+main section{
+    height: 100%;
+    width: 80%;
+    display: inline-block;
+    background-color: beige;
+}
+main section .back img{
+    max-width: 100%;
+
+}
+main section .list{
+    float: left;
+}
+main section .list div{
+    display: inline-block;
+    border : 1px solid #999999;
+    padding : 50px;
+    margin : 20px
+}
+footer{
+    height: 200px;
+    background-color: lightgray;
+}
